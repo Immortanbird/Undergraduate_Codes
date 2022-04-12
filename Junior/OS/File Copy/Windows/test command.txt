@@ -1,0 +1,3 @@
+mycp.exe "D:\Codes\C++\OS\File Copy\.test" "C:\Users\Immortan\Desktop\.test"
+dir "D:\Codes\C++\OS\File Copy\.test"
+dir C:\Users\Immortan\Desktop\.test
