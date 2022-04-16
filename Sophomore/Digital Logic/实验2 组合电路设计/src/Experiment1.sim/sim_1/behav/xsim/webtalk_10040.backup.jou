@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 20 13:56:56 2021
+# Process ID: 10040
+# Current directory: D:/Personal Files/Codes/Vivado/Experiment1/Experiment1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Personal Files/Codes/Vivado/Experiment1/Experiment1.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Personal Files/Codes/Vivado/Experiment1/Experiment1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Personal Files/Codes/Vivado/Experiment1/Experiment1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Personal -notrace

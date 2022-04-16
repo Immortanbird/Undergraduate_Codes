@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Personal Files/Codes/Verilog/Experiment 2/Experiment 2.srcs/sources_1/new/SC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Personal Files/Codes/Verilog/Experiment 2/Experiment 2.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
