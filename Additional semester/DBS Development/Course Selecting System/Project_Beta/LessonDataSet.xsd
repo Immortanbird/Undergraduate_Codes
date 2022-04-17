@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LessonDataSet" targetNamespace="http://tempuri.org/LessonDataSet.xsd" xmlns:mstns="http://tempuri.org/LessonDataSet.xsd" xmlns="http://tempuri.org/LessonDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LessonDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="LessonDataSet" msprop:Generator_UserDSName="LessonDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Lesson" msprop:Generator_TableClassName="LessonDataTable" msprop:Generator_TableVarName="tableLesson" msprop:Generator_RowChangedName="LessonRowChanged" msprop:Generator_TablePropName="Lesson" msprop:Generator_RowDeletingName="LessonRowDeleting" msprop:Generator_RowChangingName="LessonRowChanging" msprop:Generator_RowEvHandlerName="LessonRowChangeEventHandler" msprop:Generator_RowDeletedName="LessonRowDeleted" msprop:Generator_RowClassName="LessonRow" msprop:Generator_UserTableName="Lesson" msprop:Generator_RowEvArgName="LessonRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lno" msprop:Generator_ColumnVarNameInTable="columnLno" msprop:Generator_ColumnPropNameInRow="Lno" msprop:Generator_ColumnPropNameInTable="LnoColumn" msprop:Generator_UserColumnName="Lno" type="xs:int" />
+              <xs:element name="Lname" msprop:Generator_ColumnVarNameInTable="columnLname" msprop:Generator_ColumnPropNameInRow="Lname" msprop:Generator_ColumnPropNameInTable="LnameColumn" msprop:Generator_UserColumnName="Lname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Teacher" msprop:Generator_ColumnVarNameInTable="columnTeacher" msprop:Generator_ColumnPropNameInRow="Teacher" msprop:Generator_ColumnPropNameInTable="TeacherColumn" msprop:Generator_UserColumnName="Teacher">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LessonTime" msprop:Generator_ColumnVarNameInTable="columnLessonTime" msprop:Generator_ColumnPropNameInRow="LessonTime" msprop:Generator_ColumnPropNameInTable="LessonTimeColumn" msprop:Generator_UserColumnName="LessonTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Point" msprop:Generator_ColumnVarNameInTable="columnPoint" msprop:Generator_ColumnPropNameInRow="Point" msprop:Generator_ColumnPropNameInTable="PointColumn" msprop:Generator_UserColumnName="Point" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Chosen" msprop:Generator_TableClassName="ChosenDataTable" msprop:Generator_TableVarName="tableChosen" msprop:Generator_TablePropName="Chosen" msprop:Generator_RowDeletingName="ChosenRowDeleting" msprop:Generator_RowChangingName="ChosenRowChanging" msprop:Generator_RowEvHandlerName="ChosenRowChangeEventHandler" msprop:Generator_RowDeletedName="ChosenRowDeleted" msprop:Generator_UserTableName="Chosen" msprop:Generator_RowChangedName="ChosenRowChanged" msprop:Generator_RowEvArgName="ChosenRowChangeEvent" msprop:Generator_RowClassName="ChosenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lno" msprop:Generator_ColumnVarNameInTable="columnLno" msprop:Generator_ColumnPropNameInRow="Lno" msprop:Generator_ColumnPropNameInTable="LnoColumn" msprop:Generator_UserColumnName="Lno" type="xs:int" />
+              <xs:element name="Lname" msprop:Generator_ColumnVarNameInTable="columnLname" msprop:Generator_ColumnPropNameInRow="Lname" msprop:Generator_ColumnPropNameInTable="LnameColumn" msprop:Generator_UserColumnName="Lname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Teacher" msprop:Generator_ColumnVarNameInTable="columnTeacher" msprop:Generator_ColumnPropNameInRow="Teacher" msprop:Generator_ColumnPropNameInTable="TeacherColumn" msprop:Generator_UserColumnName="Teacher">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LessonTime" msprop:Generator_ColumnVarNameInTable="columnLessonTime" msprop:Generator_ColumnPropNameInRow="LessonTime" msprop:Generator_ColumnPropNameInTable="LessonTimeColumn" msprop:Generator_UserColumnName="LessonTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Point" msprop:Generator_ColumnVarNameInTable="columnPoint" msprop:Generator_ColumnPropNameInRow="Point" msprop:Generator_ColumnPropNameInTable="PointColumn" msprop:Generator_UserColumnName="Point" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Available" msprop:Generator_TableClassName="AvailableDataTable" msprop:Generator_TableVarName="tableAvailable" msprop:Generator_TablePropName="Available" msprop:Generator_RowDeletingName="AvailableRowDeleting" msprop:Generator_RowChangingName="AvailableRowChanging" msprop:Generator_RowEvHandlerName="AvailableRowChangeEventHandler" msprop:Generator_RowDeletedName="AvailableRowDeleted" msprop:Generator_UserTableName="Available" msprop:Generator_RowChangedName="AvailableRowChanged" msprop:Generator_RowEvArgName="AvailableRowChangeEvent" msprop:Generator_RowClassName="AvailableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lno" msprop:Generator_ColumnVarNameInTable="columnLno" msprop:Generator_ColumnPropNameInRow="Lno" msprop:Generator_ColumnPropNameInTable="LnoColumn" msprop:Generator_UserColumnName="Lno" type="xs:int" />
+              <xs:element name="Lname" msprop:Generator_ColumnVarNameInTable="columnLname" msprop:Generator_ColumnPropNameInRow="Lname" msprop:Generator_ColumnPropNameInTable="LnameColumn" msprop:Generator_UserColumnName="Lname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Teacher" msprop:Generator_ColumnVarNameInTable="columnTeacher" msprop:Generator_ColumnPropNameInRow="Teacher" msprop:Generator_ColumnPropNameInTable="TeacherColumn" msprop:Generator_UserColumnName="Teacher">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LessonTime" msprop:Generator_ColumnVarNameInTable="columnLessonTime" msprop:Generator_ColumnPropNameInRow="LessonTime" msprop:Generator_ColumnPropNameInTable="LessonTimeColumn" msprop:Generator_UserColumnName="LessonTime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Point" msprop:Generator_ColumnVarNameInTable="columnPoint" msprop:Generator_ColumnPropNameInRow="Point" msprop:Generator_ColumnPropNameInTable="PointColumn" msprop:Generator_UserColumnName="Point" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Lesson" />
+      <xs:field xpath="mstns:Lno" />
+    </xs:unique>
+    <xs:unique name="Chosen_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Chosen" />
+      <xs:field xpath="mstns:Lno" />
+    </xs:unique>
+    <xs:unique name="Available_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Available" />
+      <xs:field xpath="mstns:Lno" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

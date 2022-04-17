@@ -1,0 +1,10 @@
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\bin\Debug\Project_Beta.exe.config
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\bin\Debug\Project_Beta.exe
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\bin\Debug\Project_Beta.pdb
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.csproj.AssemblyReference.cache
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.Form1.resources
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.Properties.Resources.resources
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.csproj.GenerateResource.cache
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.csproj.CoreCompileInputs.cache
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.exe
+C:\Users\Immortan\source\repos\Project_Beta\Project_Beta\obj\Debug\Project_Beta.pdb
