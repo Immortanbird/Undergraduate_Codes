@@ -1,0 +1,135 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+CALCULATOR DIALOGEX 0, 0, 311, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calculator"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        ID_EDIT,42,28,222,14,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "0",ID_NUM0,91,123,27,14
+    PUSHBUTTON      "1",ID_NUM1,51,103,27,14
+    PUSHBUTTON      "2",ID_NUM2,91,103,27,14
+    PUSHBUTTON      "3",ID_NUM3,131,103,27,14
+    PUSHBUTTON      "4",ID_NUM4,51,83,27,14
+    PUSHBUTTON      "5",ID_NUM5,91,83,27,14
+    PUSHBUTTON      "6",ID_NUM6,131,83,27,14
+    PUSHBUTTON      "7",ID_NUM7,51,63,27,14
+    PUSHBUTTON      "8",ID_NUM8,91,63,27,14
+    PUSHBUTTON      "9",ID_NUM9,131,63,27,14
+    PUSHBUTTON      "+/-",ID_NEG,51,123,27,14
+    PUSHBUTTON      ".",ID_DOT,131,123,27,14
+    PUSHBUTTON      "BackSpace",ID_BACK,211,63,38,14
+    PUSHBUTTON      "CE",ID_CE,211,83,38,14
+    PUSHBUTTON      "C",ID_C,211,103,38,14
+    PUSHBUTTON      "=",ID_EQU,211,123,38,14
+    PUSHBUTTON      "+",ID_ADD,171,63,27,14
+    PUSHBUTTON      "-",ID_SUB,171,83,27,14
+    PUSHBUTTON      "*",ID_MUL,171,103,27,14
+    PUSHBUTTON      "/",ID_DIV,171,123,27,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "CALCULATOR", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+CALCULATOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON                    ICON                    "Calculator.ico"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

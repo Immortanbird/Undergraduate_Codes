@@ -1,0 +1,4 @@
+﻿  Assembling Calculator.asm...
+Calculator.asm(42): warning A6004: procedure argument or local not referenced : hPrevInst
+Calculator.asm(42): warning A6004: procedure argument or local not referenced : CmdLine
+  Lab2_Calculator.vcxproj -> D:\Codes\Assembly_Language\Lab2_Calculator\Debug\Lab2_Calculator.exe
