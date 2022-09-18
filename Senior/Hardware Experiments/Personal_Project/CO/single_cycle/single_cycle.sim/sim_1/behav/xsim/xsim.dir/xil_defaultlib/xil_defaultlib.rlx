@@ -1,0 +1,16 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.sim/sim_1/behav/xsim/glbl.v,1661565344,verilog,,,,glbl,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sim_1/new/testbench.v,1661565344,verilog,,,,testbench,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/alu.v,1661844131,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/confreg/confreg.v,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,alu,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/confreg/confreg.v,1661565344,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/control.v,,confreg,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/control.v,1661844123,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/cpu.v,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,control,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/cpu.v,1661778700,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/pc.v,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,cpu,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,1661849018,verilog,,,,,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/ip/data_ram/sim/data_ram.v,1661565344,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/ip/inst_rom/sim/inst_rom.v,,data_ram,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/ip/inst_rom/sim/inst_rom.v,1661844526,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/alu.v,,inst_rom,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/pc.v,1661825667,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/regfile.v,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,pc,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/regfile.v,1661778246,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/single_cycle.v,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/head.vh,regfile,,,,,,,,
+D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sources_1/new/single_cycle.v,1661844148,verilog,,D:/Codes/Hardware_experiments/Personal_Project/CO/single_cycle/single_cycle.srcs/sim_1/new/testbench.v,,single_cycle,,,,,,,,

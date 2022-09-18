@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../core" --include "../../../../teach_soc.srcs/sources_1/ip/clk_pll" \
+"../../../../teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" \
+"../../../../teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" \
+"../../../../teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" \
+"../../../../../core/alu.v" \
+"../../../../../core/br.v" \
+"../../../../teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" \
+"../../../../teach_soc.srcs/sources_1/new/confreg/confeg.v" \
+"../../../../../core/cu.v" \
+"../../../../../core/dmem.v" \
+"../../../../../core/dmemreq.v" \
+"../../../../../core/ex2mem.v" \
+"../../../../../core/id2ex.v" \
+"../../../../../core/if2id.v" \
+"../../../../../core/imem.v" \
+"../../../../../core/mem2wb.v" \
+"../../../../../core/mmu.v" \
+"../../../../../core/mycpu_top.v" \
+"../../../../../core/pc2if.v" \
+"../../../../../core/regfile.v" \
+"../../../../teach_soc.srcs/sources_1/new/teach_soc_top.v" \
+"../../../../../core/vga.v" \
+"../../../../teach_soc.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

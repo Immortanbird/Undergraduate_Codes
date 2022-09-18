@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Sep  1 18:53:17 2022
+# Process ID: 82632
+# Current directory: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent77388 D:\code\vivado\senior_curriculum\Composition-principle-and-assembly-Team\Composition-principle-and-assembly-Team\teach_soc\teach_soc.xpr
+# Log file: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/vivado.log
+# Journal file: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/tb_top_behav.wcfg
+source tb.tcl
+run 1 ms
+relaunch_sim
+run 1 ms
+relaunch_sim
+relaunch_sim
+run 1 ms
+relaunch_sim
+run 1 ms
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 ms
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 ms
+close_sim

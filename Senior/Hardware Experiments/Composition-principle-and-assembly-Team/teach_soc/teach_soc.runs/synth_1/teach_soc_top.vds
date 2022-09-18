@@ -1,0 +1,917 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Aug 30 12:45:35 2022
+# Process ID: 29764
+# Current directory: C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1
+# Command line: vivado.exe -log teach_soc_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source teach_soc_top.tcl
+# Log file: C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/teach_soc_top.vds
+# Journal file: C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source teach_soc_top.tcl -notrace
+Command: synth_design -top teach_soc_top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17472 
+WARNING: [Synth 8-976] MemWidthD has already been declared [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [Synth 8-2654] second declaration of MemWidthD ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [Synth 8-994] MemWidthD is declared here [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:105]
+WARNING: [Synth 8-992] TransIAddrF is already implicitly declared earlier [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:812]
+WARNING: [Synth 8-992] TransDAddrE is already implicitly declared earlier [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:813]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 993.770 ; gain = 241.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'teach_soc_top' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+INFO: [Synth 8-6157] synthesizing module 'clk_pll' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/clk_pll_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_pll' (1#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/clk_pll_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mycpu_top' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:4]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:53]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:189]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:197]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:198]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:243]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:276]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:327]
+INFO: [Synth 8-6157] synthesizing module 'pc2if' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pc2if' (2#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v:23]
+INFO: [Synth 8-6157] synthesizing module 'imem' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (3#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'if2id' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'if2id' (4#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cu' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:25]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:61]
+WARNING: [Synth 8-3848] Net BadInstrD in module/entity cu does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:47]
+WARNING: [Synth 8-3848] Net BreakD in module/entity cu does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:48]
+WARNING: [Synth 8-3848] Net SysCallD in module/entity cu does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:49]
+WARNING: [Synth 8-3848] Net EretD in module/entity cu does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'cu' (5#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v:25]
+WARNING: [Synth 8-7023] instance '_cu' of module 'cu' has 23 connections declared, but only 13 given [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:478]
+INFO: [Synth 8-6157] synthesizing module 'br' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v:23]
+WARNING: [Synth 8-6014] Unused sequential element branch_r_reg was removed.  [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'br' (6#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v:23]
+INFO: [Synth 8-6157] synthesizing module 'id2ex' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'id2ex' (7#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v:23]
+WARNING: [Synth 8-7023] instance '_id2ex' of module 'id2ex' has 58 connections declared, but only 32 given [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:564]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (8#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v:25]
+INFO: [Synth 8-6157] synthesizing module 'ex2mem' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:23]
+WARNING: [Synth 8-5788] Register HiLoOutM_reg in module ex2mem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:106]
+WARNING: [Synth 8-5788] Register PCM_reg in module ex2mem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:115]
+WARNING: [Synth 8-3848] Net MemWidthM in module/entity ex2mem does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:57]
+WARNING: [Synth 8-3848] Net PhyAddrM in module/entity ex2mem does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'ex2mem' (9#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v:23]
+WARNING: [Synth 8-7023] instance '_ex2mem' of module 'ex2mem' has 37 connections declared, but only 20 given [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:633]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (10#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dmemreq' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dmemreq' (11#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'size' does not match port width (2) of module 'dmemreq' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+INFO: [Synth 8-6157] synthesizing module 'mem2wb' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mem2wb' (12#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'HiInW' does not match port width (32) of module 'mem2wb' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+WARNING: [Synth 8-689] width (1) of port connection 'LoInW' does not match port width (32) of module 'mem2wb' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+INFO: [Synth 8-6157] synthesizing module 'mmu' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mmu' (13#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (14#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_pc2if'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:420]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_mmu'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:792]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_if2id'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:458]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_id2ex'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:564]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_ex2mem'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:633]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_alu'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:621]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '_mem2wb'. This will prevent further optimization [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:714]
+WARNING: [Synth 8-3848] Net inst_sram_wen in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:9]
+WARNING: [Synth 8-3848] Net inst_sram_wdata in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:11]
+WARNING: [Synth 8-3848] Net data_sram_wen in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:15]
+WARNING: [Synth 8-3848] Net MemAccessE in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:219]
+WARNING: [Synth 8-3848] Net data_addr_ok in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:678]
+WARNING: [Synth 8-3848] Net StallW in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:297]
+WARNING: [Synth 8-3848] Net HiLoWriteM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:265]
+WARNING: [Synth 8-3848] Net HiInM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:267]
+WARNING: [Synth 8-3848] Net LoInM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:268]
+WARNING: [Synth 8-3848] Net CP0WriteM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:270]
+WARNING: [Synth 8-3848] Net WriteCP0AddrM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:272]
+WARNING: [Synth 8-3848] Net WriteCP0SelM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:273]
+WARNING: [Synth 8-3848] Net WriteCP0HiLoDataM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:274]
+WARNING: [Synth 8-3848] Net InDelaySlotM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:277]
+WARNING: [Synth 8-3848] Net BadVAddrM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:278]
+WARNING: [Synth 8-3848] Net ExceptionTypeM_in in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:279]
+WARNING: [Synth 8-3848] Net StallF in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:48]
+WARNING: [Synth 8-3848] Net StallE in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:135]
+WARNING: [Synth 8-3848] Net ExceptionTypeE_in in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:191]
+WARNING: [Synth 8-3848] Net FlushE in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:136]
+WARNING: [Synth 8-3848] Net StallM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:227]
+WARNING: [Synth 8-3848] Net data_data_ok in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+WARNING: [Synth 8-3848] Net PhyAddrM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:264]
+WARNING: [Synth 8-3848] Net MemWidthM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:263]
+WARNING: [Synth 8-3848] Net LoadUnsignedM in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:262]
+WARNING: [Synth 8-3848] Net StallD in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:69]
+WARNING: [Synth 8-3848] Net FlushD in module/entity mycpu_top does not have driver. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mycpu_top' (15#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:4]
+INFO: [Synth 8-6157] synthesizing module 'inst_ram' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/inst_ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'inst_ram' (16#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/inst_ram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bridge_1x2' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'bridge_1x2' (17#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'data_ram' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/data_ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_ram' (18#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-29764-Loong/realtime/data_ram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'confreg' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v:17]
+INFO: [Synth 8-226] default block is never used [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v:299]
+INFO: [Synth 8-226] default block is never used [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v:330]
+INFO: [Synth 8-226] default block is never used [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v:350]
+INFO: [Synth 8-6155] done synthesizing module 'confreg' (19#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v:17]
+INFO: [Synth 8-6157] synthesizing module 'vga' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'vga' (20#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[0]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[1]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[2]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[3]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[4]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[5]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[6]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 1st driver pin 'teach_soc_top:/confreg/led[7]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v-7.7 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'teach_soc_top' (21#1) [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:7]
+WARNING: [Synth 8-3917] design teach_soc_top has port led[7] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[6] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[5] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[4] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[3] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[2] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[1] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[0] driven by constant 1
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_wen[3]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_wen[2]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_wen[1]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_wen[0]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[31]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[30]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[29]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[28]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[27]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[26]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[25]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[24]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[23]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[22]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[21]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[20]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[19]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[18]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[17]
+WARNING: [Synth 8-3331] design confreg has unconnected port confreg_addr[16]
+WARNING: [Synth 8-3331] design mmu has unconnected port clk
+WARNING: [Synth 8-3331] design mmu has unconnected port i_en
+WARNING: [Synth 8-3331] design mmu has unconnected port d_en
+WARNING: [Synth 8-3331] design mem2wb has unconnected port en
+WARNING: [Synth 8-3331] design dmemreq has unconnected port en
+WARNING: [Synth 8-3331] design dmemreq has unconnected port MemToRegE
+WARNING: [Synth 8-3331] design dmem has unconnected port req
+WARNING: [Synth 8-3331] design dmem has unconnected port addr_ok
+WARNING: [Synth 8-3331] design dmem has unconnected port data_ok
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[7]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[6]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[5]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[4]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[3]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[2]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port rdata[0]
+WARNING: [Synth 8-3331] design dmem has unconnected port WE
+WARNING: [Synth 8-3331] design dmem has unconnected port A[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[7]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[6]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[5]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[4]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[3]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[2]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port A[0]
+WARNING: [Synth 8-3331] design dmem has unconnected port WIDTH[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port WIDTH[0]
+WARNING: [Synth 8-3331] design dmem has unconnected port SIGN
+WARNING: [Synth 8-3331] design ex2mem has unconnected port MemWidthM[1]
+WARNING: [Synth 8-3331] design ex2mem has unconnected port MemWidthM[0]
+WARNING: [Synth 8-3331] design ex2mem has unconnected port PhyAddrM[31]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1052.336 ; gain = 299.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1052.336 ; gain = 299.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1052.336 ; gain = 299.660
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1052.336 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/data_ram/data_ram_in_context.xdc] for cell 'data_ram'
+Finished Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/data_ram/data_ram_in_context.xdc] for cell 'data_ram'
+Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/inst_ram/inst_ram_in_context.xdc] for cell 'inst_ram'
+Finished Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/inst_ram/inst_ram_in_context.xdc] for cell 'inst_ram'
+Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll/clk_pll_in_context.xdc] for cell 'clk_pll'
+Finished Parsing XDC File [c:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll/clk_pll_in_context.xdc] for cell 'clk_pll'
+Parsing XDC File [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rs232_rxd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:128]
+WARNING: [Vivado 12-584] No ports matched 'rs232_txd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:129]
+WARNING: [Vivado 12-584] No ports matched 'rs232_rxd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:130]
+WARNING: [Vivado 12-584] No ports matched 'rs232_txd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:131]
+WARNING: [Vivado 12-584] No ports matched 'rs232_rxd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:252]
+WARNING: [Vivado 12-584] No ports matched 'rs232_txd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:253]
+WARNING: [Vivado 12-584] No ports matched 'rs232_rxd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:254]
+WARNING: [Vivado 12-584] No ports matched 'rs232_txd'. [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:255]
+Finished Parsing XDC File [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/teach_soc_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/teach_soc_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/teach_soc_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1183.176 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1183.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for data_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_pll. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5587] ROM size for "get_inst_id" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "get_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "get_alu_op" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-327] inferring latch for variable 'debug_wb_pc_r_reg' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:766]
+WARNING: [Synth 8-327] inferring latch for variable 'light' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     11 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 71    
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 35    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 25    
+	   4 Input     32 Bit        Muxes := 2     
+	  23 Input     26 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	  13 Input      6 Bit        Muxes := 1     
+	  12 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 7     
+	   4 Input      5 Bit        Muxes := 1     
+	  21 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 5     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pc2if 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module if2id 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
+Module cu 
+Detailed RTL Component Info : 
++---Muxes : 
+	  23 Input     26 Bit        Muxes := 1     
+	  13 Input      6 Bit        Muxes := 1     
+	  12 Input      5 Bit        Muxes := 1     
+	  21 Input      4 Bit        Muxes := 1     
+Module br 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module id2ex 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                5 Bit    Registers := 6     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      5 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 5     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module ex2mem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 10    
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+Module dmem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module dmemreq 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module mem2wb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 8     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+Module mmu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 32    
+Module mycpu_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+Module bridge_1x2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module confreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "_cu/get_inst_id" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3917] design teach_soc_top has port led[7] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[6] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[5] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[4] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[3] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[2] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[1] driven by constant 1
+WARNING: [Synth 8-3917] design teach_soc_top has port led[0] driven by constant 1
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/RdE_reg[3]' (FDC) to 'cpu/_id2ex/ImmE_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/RdE_reg[4]' (FDC) to 'cpu/_id2ex/ImmE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/RdE_reg[0]' (FDC) to 'cpu/_id2ex/ImmE_reg[11]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/RdE_reg[1]' (FDC) to 'cpu/_id2ex/ImmE_reg[12]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/RdE_reg[2]' (FDC) to 'cpu/_id2ex/ImmE_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmem/RD_reg[15] )
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[16]' (FDC) to 'cpu/_id2ex/ImmE_reg[17]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[17]' (FDC) to 'cpu/_id2ex/ImmE_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[18]' (FDC) to 'cpu/_id2ex/ImmE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[19]' (FDC) to 'cpu/_id2ex/ImmE_reg[20]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[20]' (FDC) to 'cpu/_id2ex/ImmE_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[21]' (FDC) to 'cpu/_id2ex/ImmE_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[22]' (FDC) to 'cpu/_id2ex/ImmE_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[23]' (FDC) to 'cpu/_id2ex/ImmE_reg[24]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[24]' (FDC) to 'cpu/_id2ex/ImmE_reg[25]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[25]' (FDC) to 'cpu/_id2ex/ImmE_reg[26]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[26]' (FDC) to 'cpu/_id2ex/ImmE_reg[27]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[27]' (FDC) to 'cpu/_id2ex/ImmE_reg[28]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[28]' (FDC) to 'cpu/_id2ex/ImmE_reg[29]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[29]' (FDC) to 'cpu/_id2ex/ImmE_reg[30]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/ImmE_reg[30]' (FDC) to 'cpu/_id2ex/ImmE_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cpu/_id2ex/MemWidthE_reg[0]' (FDC) to 'cpu/_id2ex/MemWidthE_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/_id2ex/\ALUCtrlE_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_dmemreq/addr_pending_reg )
+INFO: [Synth 8-3886] merging instance 'vga/reg_b_reg[0]' (FDR) to 'vga/reg_g_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_b_reg[1]' (FDR) to 'vga/reg_g_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_b_reg[2]' (FDS) to 'vga/reg_b_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_g_reg[0]' (FDS) to 'vga/reg_g_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_g_reg[1]' (FDR) to 'vga/reg_g_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vga/\reg_g_reg[2] )
+INFO: [Synth 8-3886] merging instance 'vga/reg_r_reg[0]' (FDR) to 'vga/reg_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_r_reg[1]' (FDR) to 'vga/reg_r_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vga/reg_r_reg[2]' (FDR) to 'vga/reg_r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'confreg/scan_enable_reg[0]' (FDR) to 'confreg/scan_enable_reg[4]'
+INFO: [Synth 8-3886] merging instance 'confreg/scan_enable_reg[1]' (FDR) to 'confreg/scan_enable_reg[5]'
+INFO: [Synth 8-3886] merging instance 'confreg/scan_enable_reg[2]' (FDR) to 'confreg/scan_enable_reg[6]'
+INFO: [Synth 8-3886] merging instance 'confreg/scan_enable_reg[3]' (FDR) to 'confreg/scan_enable_reg[7]'
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[31]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[30]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[29]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[28]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[27]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[26]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[25]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[24]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[23]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[22]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[21]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[20]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[19]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[18]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[17]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[16]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[15]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[14]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[13]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[12]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[11]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[10]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[9]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[8]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[7]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[6]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[5]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[4]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[3]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[2]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[1]) is unused and will be removed from module mycpu_top.
+WARNING: [Synth 8-3332] Sequential element (debug_wb_pc_r_reg[0]) is unused and will be removed from module mycpu_top.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[7] with 1st driver pin 'confreg/led[7]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[7] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[7] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[6] with 1st driver pin 'confreg/led[6]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[6] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[6] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[5] with 1st driver pin 'confreg/led[5]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[5] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[5] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[4] with 1st driver pin 'confreg/led[4]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[4] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[4] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[3] with 1st driver pin 'confreg/led[3]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[3] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[3] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[2] with 1st driver pin 'confreg/led[2]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[2] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[2] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[1] with 1st driver pin 'confreg/led[1]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[1] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[1] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[0] with 1st driver pin 'confreg/led[0]' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin led[0] with 2nd driver pin 'VCC' [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net led[0] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v:143]
+INFO: [Synth 8-3886] merging instance 'vga/reg_b_reg[3]' (FDS) to 'vga/reg_g_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\_regfile/regs_reg[0][15] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1183.176 ; gain = 430.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1189.996 ; gain = 437.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu/HiLoOutE_inferred:in0[0] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_pll       |         1|
+|2     |inst_ram      |         1|
+|3     |data_ram      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |clk_pll  |     1|
+|2     |data_ram |     1|
+|3     |inst_ram |     1|
+|4     |BUFG     |     1|
+|5     |CARRY4   |    51|
+|6     |LUT1     |    43|
+|7     |LUT2     |   266|
+|8     |LUT3     |   112|
+|9     |LUT4     |   128|
+|10    |LUT5     |   137|
+|11    |LUT6     |   878|
+|12    |MUXF7    |   256|
+|13    |MUXF8    |   128|
+|14    |FDCE     |  1543|
+|15    |FDPE     |     9|
+|16    |FDRE     |   135|
+|17    |FDSE     |     1|
+|18    |LD       |     7|
+|19    |IBUF     |     2|
+|20    |OBUF     |    44|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+----------+------+
+|      |Instance     |Module    |Cells |
++------+-------------+----------+------+
+|1     |top          |          |  3807|
+|2     |  confreg    |confreg   |   121|
+|3     |  cpu        |mycpu_top |  3433|
+|4     |    _pc2if   |pc2if     |    33|
+|5     |    _if2id   |if2id     |    96|
+|6     |    _id2ex   |id2ex     |   131|
+|7     |    _alu     |alu       |   456|
+|8     |    _ex2mem  |ex2mem    |    72|
+|9     |    _mem2wb  |mem2wb    |    72|
+|10    |    _mmu     |mmu       |    48|
+|11    |    _br      |br        |   131|
+|12    |    _dmemreq |dmemreq   |   104|
+|13    |    _regfile |regfile   |  2047|
+|14    |  vga        |vga       |   140|
++------+-------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 24 critical warnings and 243 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 1194.551 ; gain = 311.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1194.551 ; gain = 441.875
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1207.586 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 442 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1207.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  LD => LDCE: 7 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+179 Infos, 237 Warnings, 48 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1207.586 ; gain = 726.168
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1207.586 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.runs/synth_1/teach_soc_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file teach_soc_top_utilization_synth.rpt -pb teach_soc_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 30 12:46:25 2022...

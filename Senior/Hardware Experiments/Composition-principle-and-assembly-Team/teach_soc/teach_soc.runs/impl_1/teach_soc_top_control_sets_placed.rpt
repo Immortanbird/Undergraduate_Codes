@@ -1,0 +1,126 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Aug 30 12:47:10 2022
+| Host         : Loong running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file teach_soc_top_control_sets_placed.rpt
+| Design       : teach_soc_top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    48 |
+|    Minimum number of control sets                        |    48 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    62 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    48 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    40 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            6 |
+| No           | No                    | Yes                    |             460 |          146 |
+| No           | Yes                   | No                     |              71 |           22 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             992 |          444 |
+| Yes          | Yes                   | No                     |              43 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-----------------------------------+-------------------------------+------------------+----------------+
+|      Clock Signal     |           Enable Signal           |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------------------+-------------------------------+------------------+----------------+
+|  clk_pll/inst/clk_vga |                                   | vga/reg_vs_i_1_n_0            |                1 |              1 |
+|  clk_pll/inst/clk_vga |                                   | vga/reg_hs_i_1_n_0            |                1 |              1 |
+|  clk_pll/inst/clk_vga |                                   | vga/reg_r                     |                2 |              4 |
+|  clk_pll/inst/clk_vga |                                   | vga/reg_g[3]_i_1_n_0          |                2 |              4 |
+|  clk_pll/inst/soc_clk |                                   |                               |                4 |              5 |
+|  cpu/_dmemreq/E[0]    |                                   |                               |                2 |              7 |
+|  clk_pll/inst/clk_vga |                                   | cpu/_dmemreq/resetn           |                5 |             11 |
+|  clk_pll/inst/clk_vga | vga/v_cur                         | cpu/_dmemreq/resetn           |                8 |             11 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_pc2if/PCF[31]_i_1_n_0    |               10 |             31 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[7][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               24 |             32 |
+|  clk_IBUF_BUFG        | confreg/write_digital_num         | cpu/_dmemreq/resetn           |                4 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[21][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               13 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[15][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               16 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[2][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               12 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[1][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               10 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[16][31]_i_1_n_0 | cpu/_dmemreq/resetn           |                6 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[10][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               11 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[11][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               19 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[12][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               10 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[17][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               13 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[18][31]_i_1_n_0 | cpu/_dmemreq/resetn           |                7 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[14][31]_i_1_n_0 | cpu/_dmemreq/resetn           |                8 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[20][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               10 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[13][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               13 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[23][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               10 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[24][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               11 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[25][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               16 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[26][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               16 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[28][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               17 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[29][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               23 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[30][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               22 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[19][31]_i_1_n_0 | cpu/_dmemreq/resetn           |                8 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[27][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               15 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[22][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               11 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[6][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               18 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[9][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               21 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[31][31]_i_1_n_0 | cpu/_dmemreq/resetn           |               22 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[3][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               13 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[4][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               12 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[5][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               12 |             32 |
+| ~clk_pll/inst/soc_clk | cpu/_regfile/regs[8][31]_i_1_n_0  | cpu/_dmemreq/resetn           |               25 |             32 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_mem2wb/RegWriteW_i_1_n_0 |               15 |             39 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_ex2mem/RegWriteM_i_1_n_0 |               16 |             39 |
+|  clk_IBUF_BUFG        |                                   | cpu/_dmemreq/resetn           |               11 |             50 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_if2id/InstrD[31]_i_1_n_0 |               23 |             62 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_dmemreq/resetn           |               14 |             65 |
+|  clk_pll/inst/soc_clk |                                   | cpu/_id2ex/RegWriteE_i_1_n_0  |               37 |             98 |
+| ~clk_pll/inst/soc_clk |                                   | cpu/_dmemreq/resetn           |               31 |            126 |
++-----------------------+-----------------------------------+-------------------------------+------------------+----------------+
+
+

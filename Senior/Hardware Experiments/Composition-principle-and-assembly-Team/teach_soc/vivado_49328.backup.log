@@ -1,0 +1,989 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Sep  1 18:15:37 2022
+# Process ID: 49328
+# Current directory: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46880 D:\code\vivado\senior_curriculum\Composition-principle-and-assembly-Team\Composition-principle-and-assembly-Team\teach_soc\teach_soc.xpr
+# Log file: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/vivado.log
+# Journal file: D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc'
+INFO: [Project 1-313] Project file moved from 'C:/Users/27340/Desktop/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/XILINX/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 929.941 ; gain = 252.109
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2458] undeclared symbol size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v:56]
+INFO: [VRFC 10-2458] undeclared symbol wdata, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:677]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:678]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:758]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:796]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:799]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 796 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:812]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 799 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:813]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 984.691 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'size' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'HiInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'LoInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module xil_defaultlib.clk_pll_clk_wiz
+Compiling module xil_defaultlib.clk_pll
+Compiling module xil_defaultlib.pc2if
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.if2id
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.br
+Compiling module xil_defaultlib.id2ex
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ex2mem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.dmemreq
+Compiling module xil_defaultlib.mem2wb
+Compiling module xil_defaultlib.mmu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.teach_soc_top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 92.465 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep  1 18:19:57 2022...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 984.691 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+open_wave_config D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/resetn was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_cu/instr was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_pc2if/PC_next was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_pc2if/PCF was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/inst_sram_addr was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/inst_sram_rdata was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_br/rs was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_br/rt was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_br/branch was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_br/exe was not found in the design.
+WARNING: Simulation object /tb_top/soc_lite/cpu/_br/result was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.teach_soc_top_u.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb.teach_soc_top_u.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1015.855 ; gain = 44.039
+run 1 ms
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1022.855 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'size' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'HiInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'LoInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.teach_soc_top_u.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb.teach_soc_top_u.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1022.855 ; gain = 0.000
+run 1 ms
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:677]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:678]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:758]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:796]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:799]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 796 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:812]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 799 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:813]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1033.086 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1033.086 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'size' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'HiInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'LoInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module xil_defaultlib.clk_pll_clk_wiz
+Compiling module xil_defaultlib.clk_pll
+Compiling module xil_defaultlib.pc2if
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.if2id
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.br
+Compiling module xil_defaultlib.id2ex
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ex2mem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.dmemreq
+Compiling module xil_defaultlib.mem2wb
+Compiling module xil_defaultlib.mmu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.teach_soc_top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.teach_soc_top_u.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb.teach_soc_top_u.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1033.086 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:677]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:678]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:758]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:796]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:799]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 796 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:812]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 799 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:813]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1045.273 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1045.273 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'size' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:697]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'HiInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:742]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'LoInW' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:743]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module xil_defaultlib.clk_pll_clk_wiz
+Compiling module xil_defaultlib.clk_pll
+Compiling module xil_defaultlib.pc2if
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.if2id
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.br
+Compiling module xil_defaultlib.id2ex
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ex2mem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.dmemreq
+Compiling module xil_defaultlib.mem2wb
+Compiling module xil_defaultlib.mmu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.teach_soc_top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.teach_soc_top_u.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb.teach_soc_top_u.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1045.273 ; gain = 0.000
+run 1 ms
+add_bp {D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v} 70
+remove_bps -file {D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v} -line 70
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:691]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:736]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:737]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:752]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:790]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:793]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 790 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:806]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 793 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:807]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1045.273 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1045.273 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'data_pending' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:683]
+ERROR: [VRFC 10-3180] cannot find port 'WIDTH' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+ERROR: [VRFC 10-3180] cannot find port 'data_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+ERROR: [VRFC 10-3180] cannot find port 'addr_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+ERROR: [VRFC 10-3180] cannot find port 'req' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:691]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:736]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:737]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:752]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:790]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:793]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 790 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:806]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 793 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:807]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1064.387 ; gain = 0.945
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1064.387 ; gain = 0.945
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'data_pending' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:683]
+ERROR: [VRFC 10-3180] cannot find port 'WIDTH' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+ERROR: [VRFC 10-3180] cannot find port 'data_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+ERROR: [VRFC 10-3180] cannot find port 'addr_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+ERROR: [VRFC 10-3180] cannot find port 'req' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol data_req, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+INFO: [VRFC 10-2458] undeclared symbol data_addr_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+INFO: [VRFC 10-2458] undeclared symbol data_data_ok, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:691]
+INFO: [VRFC 10-2458] undeclared symbol HiInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:736]
+INFO: [VRFC 10-2458] undeclared symbol LoInW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:737]
+INFO: [VRFC 10-2458] undeclared symbol HiLoWriteW, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:752]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:790]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:793]
+WARNING: [VRFC 10-2938] 'TransIAddrF' is already implicitly declared on line 790 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:806]
+WARNING: [VRFC 10-2938] 'TransDAddrE' is already implicitly declared on line 793 [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:807]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1064.387 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1064.387 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'data_pending' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:683]
+ERROR: [VRFC 10-3180] cannot find port 'WIDTH' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+ERROR: [VRFC 10-3180] cannot find port 'data_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+ERROR: [VRFC 10-3180] cannot find port 'addr_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+ERROR: [VRFC 10-3180] cannot find port 'req' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Software/XILINX/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newInterface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/1.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/SwTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/addTest.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/non.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_BEQ.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Test_branch.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/Interface.coe'
+INFO: [SIM-utils-43] Exported 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/newBeeInterface.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim'
+"xelab -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'data_pending' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:683]
+ERROR: [VRFC 10-3180] cannot find port 'WIDTH' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:679]
+ERROR: [VRFC 10-3180] cannot find port 'data_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:673]
+ERROR: [VRFC 10-3180] cannot find port 'addr_ok' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:672]
+ERROR: [VRFC 10-3180] cannot find port 'req' on this module [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:671]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  1 18:53:07 2022...

@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/br.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module br
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/bridge/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/confreg/confeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/dmemreq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmemreq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/ex2mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex2mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/id2ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id2ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/if2id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if2id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mem2wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-3248] data object 'MemWidthD' is already declared [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:143]
+WARNING: [VRFC 10-3703] second declaration of 'MemWidthD' ignored [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:143]
+INFO: [VRFC 10-2458] undeclared symbol StallF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:415]
+INFO: [VRFC 10-2458] undeclared symbol PCPlus8F, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:439]
+INFO: [VRFC 10-2458] undeclared symbol NextDelaySlotD, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:474]
+INFO: [VRFC 10-2458] undeclared symbol data_size, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:636]
+INFO: [VRFC 10-2458] undeclared symbol TransIAddrF, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:698]
+INFO: [VRFC 10-2458] undeclared symbol TransDAddrE, assumed default net type wire [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:701]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/pc2if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc2if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sources_1/new/teach_soc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teach_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/teach_soc/teach_soc.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

@@ -1,0 +1,51 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c3bb3c87ca004c328e9f2d96285e62b0 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'size' [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:636]
+WARNING: [VRFC 10-5021] port 'NextDelaySlotD' is not connected on this instance [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:441]
+WARNING: [VRFC 10-5021] port 'SIGN' is not connected on this instance [D:/code/vivado/senior_curriculum/Composition-principle-and-assembly-Team/Composition-principle-and-assembly-Team/core/mycpu_top.v:620]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module xil_defaultlib.clk_pll_clk_wiz
+Compiling module xil_defaultlib.clk_pll
+Compiling module xil_defaultlib.pc2if
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.if2id
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.br
+Compiling module xil_defaultlib.id2ex
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ex2mem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.dmemreq
+Compiling module xil_defaultlib.mem2wb
+Compiling module xil_defaultlib.mmu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.teach_soc_top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
