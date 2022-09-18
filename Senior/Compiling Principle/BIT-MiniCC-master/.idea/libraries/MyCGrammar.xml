@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MyCGrammar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/MyCGrammar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
